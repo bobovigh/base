@@ -68,4 +68,4 @@ The figure below illustrates this behavior using an example.
 > ## MIT2 labor *(2024.03.11.)*
 > - --
 > **todolist**
-> - [X] clone repoA
+> - [X] clone repoB
