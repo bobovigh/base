@@ -20,8 +20,6 @@ public class TrainControllerImpl implements TrainController {
             }
 		}
 
-		error
-
 		enforceSpeedLimit();
 	}
 
@@ -43,6 +41,7 @@ public class TrainControllerImpl implements TrainController {
 		}
 	}
 
+	@Override
 	public void emergencyBreak() {
 		referenceSpeed = 0;
 	}
