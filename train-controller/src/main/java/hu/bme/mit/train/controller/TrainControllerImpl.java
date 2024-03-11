@@ -20,7 +20,9 @@ public class TrainControllerImpl implements TrainController {
             }
 		}
 
-		enforceSpeedLimit();;
+		error
+
+		enforceSpeedLimit();
 	}
 
 	@Override
