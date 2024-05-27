@@ -9,6 +9,7 @@ public class TrainControllerImpl implements TrainController {
 	private int speedLimit = 0;
 	private Thread thread;
 
+	//referenciasebesseg szalakkals
 	public TrainControllerImpl() {
 		thread = new Thread() {
 			@Override
