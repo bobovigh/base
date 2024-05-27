@@ -8,8 +8,10 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
+	// Timer attribute to handle time-based changes
 	private Timer timer = new Timer("timer");
 
+	// the constructor of this class initiates a timertask that's "called" every passing second
 	public TrainControllerImpl() {
 		TimerTask tTask = new TimerTask() {
 			public void run() {
